@@ -66,7 +66,7 @@ public class ArmadilloBucketItem extends Item {
         ItemStack stack = context.getItemInHand();
         BlockPos pos = context.getClickedPos().relative(context.getClickedFace());
 
-        Armadillo armadillo = EntityType.ARMADILLO.create(level, EntitySpawnReason.BUCKET);
+        Armadillo armadillo = EntityTypes.ARMADILLO.create(level, EntitySpawnReason.BUCKET);
         if (armadillo == null) return InteractionResult.FAIL;
 
         CustomData data = stack.get(DataComponents.CUSTOM_DATA);
