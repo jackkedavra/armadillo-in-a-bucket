@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "armadillobucket",
+  "version": "${version}",
+  "name": "Armadillo in a Bucket",
+  "description": "Fang Gürteltiere mit einem leeren Eimer ein und setz sie überall wieder ab – wie A Villager in a Bucket, nur für Armadillos.",
+  "authors": [
+    "Katz.motion"
+  ],
+  "contact": {
+    "sources": "https://github.com/katzmotion/armadillo-in-a-bucket"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.katzmotion.armadillobucket.ArmadilloBucketMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
